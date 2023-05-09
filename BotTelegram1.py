@@ -38,7 +38,7 @@ def scrap_handler(message):
 def fetch_scrapping(message, sito):
     parola = message.text
     resp = web_scrapping(sito, parola)
-    scrap_message = f'*Risultati:* n*Sito:*{sito}\\ n*Parola:* {parola}\\ n*Risultato:* {resp}'
+    scrap_message = f'Risultati: Sito:{sito}\\ Parola:{parola}\\ Risultato: {resp}'
     bot.send_message(message.chat.id, "Here's your response!")
     bot.send_message(message.chat.id, scrap_message)
 
