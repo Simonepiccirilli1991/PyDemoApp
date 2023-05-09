@@ -3,7 +3,7 @@ import os
 import telebot
 from ScrappingUtils import web_scrapping
 
-BOT_TOKEN = '5971884557:AAHEML5YzXTfMrB4Z0AOJZaPEaA-LEylOPw'
+BOT_TOKEN = ''
 
 bot = telebot.TeleBot(BOT_TOKEN)
 
